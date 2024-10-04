@@ -1,0 +1,9 @@
+#root {
+  margin: 0 ;
+  box-sizing: border-box;
+}
+.appDark nav{
+  background-color: #000 !important;
+  color: white;
+}
+
