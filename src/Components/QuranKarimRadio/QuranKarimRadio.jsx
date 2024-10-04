@@ -13,6 +13,7 @@ export default function QuranKarimRadio() {
 
   useEffect(() => {
     getQuran();
+    document.title = "أذاعات القرأن الكريم"
   }, []);
   return (
     <>

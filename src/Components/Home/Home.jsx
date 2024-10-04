@@ -1,11 +1,13 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import style from "./Home.module.css"
 import "../../index.css"
 import background from "../../assets/background.jpg"
 import { Link } from 'react-router-dom'
 export default function Home() {
   
-
+  useEffect(() => {
+    document.title = "الفوز بالجنة"
+  } ,[]) 
   
   return <>
     <div className='test p-14  text-white  flex flex-col justify-center'>

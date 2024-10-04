@@ -18,7 +18,8 @@ export default function PrayerTimes() {
     setTimesOfPrayer(data.data.timings)
   }
   useEffect(() => {
-    getTimes()    
+    getTimes()  
+    document.title = "أوقات الصلاة"  
   } , [])
  
  return <>

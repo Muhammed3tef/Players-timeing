@@ -14,6 +14,7 @@ export default function Interpretation() {
 
   useEffect(() => {
     getKoran();
+    document.title = "التفسير"
   }, []);
 
   return (

@@ -15,6 +15,7 @@ export default function Koran() {
 
   useEffect(() => {
     getKoran();
+    document.title = "القرأن الكريم"
   }, []);
 
   return (

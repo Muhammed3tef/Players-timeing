@@ -14,6 +14,7 @@ export default function Hadiths() {
   }  
   useEffect(() => {
     getHadith()
+    document.title =  "أحاديث"
   } ,[])
   
   return <>

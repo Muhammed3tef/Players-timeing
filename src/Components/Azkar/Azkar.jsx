@@ -56,6 +56,7 @@ export default function Azkar() {
 
   useEffect(() => {
     getAzkar()
+    document.title = "الأذكار"
   } ,[])
   
   return <>
