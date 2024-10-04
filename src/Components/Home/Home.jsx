@@ -14,7 +14,7 @@ export default function Home() {
       <h1 className=' md:ps-40  md:text-right text-center  md:text-5xl text-3xl  amiri-regular '>مرحبا بك</h1>
       <h1 className=' md:ps-40 pt-5  md:text-right text-center  md:text-5xl text-3xl amiri-regular '>في موقع الفوز بالجنة</h1>
       
-<Link to="prayertimes" className="button md:right-40 right-20 top-14 amiri-regular " >
+<Link to="prayertimes" className="button md:right-40 right-6 top-14 amiri-regular " >
  أبدأ التصفح  
   <div className="arrow">›</div>
 </Link>
